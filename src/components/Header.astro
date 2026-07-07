@@ -5,12 +5,14 @@ import HeaderLink from './HeaderLink.astro';
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<a href="/" class="site-logo">
+			<img src="/logo2.jpg" alt={SITE_TITLE} height="40" />
+		</a>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
-			</div>
+		</div>
 	</nav>
 </header>
 <style>
@@ -20,20 +22,17 @@ import HeaderLink from './HeaderLink.astro';
 		background: white;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
 	nav {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		padding: 0.5em 0;
+	}
+	.site-logo img {
+		height: 130px;
+		width: auto;
+		display: block;
 	}
 	.internal-links {
 		display: flex;
