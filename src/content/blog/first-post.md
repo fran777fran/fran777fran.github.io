@@ -2,7 +2,7 @@
 title: 'Bienvenido a mi blog de informática'
 description: 'Primer post donde explico de qué irá este blog y qué voy a documentar aquí.'
 pubDate: 'Jul 06 2026'
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/logo.jpg'
 ---
 
 ¡Hola! Este es el primer post de mi blog, donde iré documentando mi aprendizaje
