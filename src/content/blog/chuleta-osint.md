@@ -3,6 +3,7 @@ title: 'Chuleta de OSINT: operadores y comandos esenciales'
 description: 'Recopilación práctica de operadores de búsqueda y comandos útiles para OSINT: Google dorks, WHOIS, DNS, metadatos y más.'
 pubDate: 'Jul 09 2026'
 heroImage: '../../assets/osint.jpg'
+tags: ['osint', 'seguridad']
 ---
 
 Esta es una chuleta rápida con los "códigos" que más se usan en OSINT: operadores de

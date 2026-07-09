@@ -3,6 +3,7 @@ title: 'Organización de archivos y directorios en Linux'
 description: 'Un recorrido sencillo por la estructura de directorios de Linux: qué es cada carpeta del sistema y para qué sirve.'
 pubDate: 'Jul 07 2026'
 heroImage: '../../assets/linux.jpg'
+tags: ['general', 'linux']
 ---
 
 Cuando empiezas con Linux, una de las primeras cosas que desconcierta es su

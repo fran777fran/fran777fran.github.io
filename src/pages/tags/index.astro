@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const posts = await getCollection('blog');
+const tags = [...new Set(posts.flatMap((post) => post.data.tags ?? []))].sort();
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<BaseHead title="Etiquetas" description="Todas las etiquetas del blog" />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Etiquetas</h1>
+			<ul>
+				{tags.map((tag) => (
+					<li><a href={`/tags/${tag}/`}>{tag}</a></li>
+				))}
+			</ul>
+		</main>
+		<Footer />
+	</body>
+</html>
